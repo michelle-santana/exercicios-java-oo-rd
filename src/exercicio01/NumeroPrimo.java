@@ -19,8 +19,10 @@ public class NumeroPrimo {
      * @return Set<Integer>
      */
     public Set<Integer> getNumerosPrimosDe(Set<Integer> numeros) {
-        // TODO: implemente o código deste método
-        return null;
+        var i = 0;
+     for(i = 0; i > numeros.size();i++);{
+     return numeros;
+      }
     }
 
 }

@@ -1,7 +1,6 @@
 package exercicio01;
 
 import java.util.Set;
-import java.util.TreeSet;
 
 public class Exercicio01 {
 
@@ -13,8 +12,8 @@ public class Exercicio01 {
 
         Set<Integer> primos = new NumeroPrimo().getNumerosPrimosDe(getSetDe(fibonacci));
 
-        System.out.println("Os numeros primos da sequencia Fibonacci de "+tamanho+" sao:");
-        for (Integer primo: primos) {
+        System.out.println("Os numeros primos da sequencia Fibonacci de " + tamanho + " sao:");
+        for (Integer primo : primos) {
             System.out.println(primo);
         }
 
@@ -27,7 +26,12 @@ public class Exercicio01 {
      * @return Set<Integer>
      */
     private static Set<Integer> getSetDe(int[] numeros) {
-        // TODO: implemente o código deste método
-        return null;
+    this.getSetDe(3);
+
+    
+
     }
+
+
+
 }
